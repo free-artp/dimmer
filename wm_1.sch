@@ -25848,18 +25848,12 @@ Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&l
 <segment>
 <pinref part="Q1" gate="G$1" pin="1"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
-<wire x1="172.72" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
-<junction x="160.02" y="121.92"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="2"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="IC4" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
-<wire x1="160.02" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
-<junction x="160.02" y="127"/>
 </segment>
 </net>
 <net name="INT1" class="0">
