@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20548,11 +20548,6 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="266.7" y1="83.82" x2="271.78" y2="83.82" width="0.1524" layer="91"/>
 <junction x="266.7" y="83.82"/>
 </segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
-<label x="22.86" y="50.8" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="GROUND" class="0">
 <segment>
@@ -20669,7 +20664,13 @@ grid 15mm, 19649 Wickmann</description>
 <segment>
 <pinref part="F1" gate="1" pin="2"/>
 <pinref part="IN" gate="-1" pin="KL"/>
-<wire x1="281.94" y1="83.82" x2="299.72" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="83.82" x2="294.64" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="83.82" x2="299.72" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="83.82" x2="294.64" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="22.86" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
