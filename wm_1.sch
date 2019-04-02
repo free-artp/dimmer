@@ -20271,6 +20271,7 @@ grid 15mm, 19649 Wickmann</description>
 <sheet>
 <plain>
 <text x="63.5" y="35.56" size="1.778" layer="91">http://forum.easyelectronics.ru/viewtopic.php?p=410454#p410454</text>
+<text x="38.1" y="60.96" size="1.778" layer="91">220V</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="45.72" y="71.12" smashed="yes">
