@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-05-05T11:57:26Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "wm_1"
+        },
+        "Owner": "Peter Artamonov <peter.artamonov@gmail.com>",
+        "Size": {
+            "X": 69.513,
+            "Y": 34.9765
+        }
+    }
+}

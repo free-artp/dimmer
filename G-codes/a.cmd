@@ -1,0 +1,1 @@
+sed -e "s/[XYZFSM]/ \\0/g"  %1 >%1.spaced
